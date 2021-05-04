@@ -1,5 +1,21 @@
 
-   .bd-placeholder-img {
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  
+   header.navbar{
+      padding: 2px 3%;
+      opacity: 1;
+      background-color:	white;
+       
+  }
+  header li:hover{
+      background-color: whitesmoke;
+      border-radius: 5px;
+  }
+      .bd-placeholder-img {
      font-size: 1.125rem;
      text-anchor: middle;
      -webkit-user-select: none;
@@ -12,22 +28,8 @@
        font-size: 3.5rem;
      }
    }
-
-   .navbar{
-    display: flex;
-    justify-content: space-between;
-   
+body{
+  overflow-x:none ;
 }
 
-header .navbar{
-    padding: 2px 3%;
-    opacity: 1;
-    background-color:	white;
-     
-}
-header li:hover{
-    background-color: whitesmoke;
-    border-radius: 5px;
-    color:  rgb(246 223 235);
-}
 
